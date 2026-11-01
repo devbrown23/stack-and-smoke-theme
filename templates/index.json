@@ -35,7 +35,7 @@
         "b"
       ],
       "settings": {
-        "image_overlay_opacity": 45,
+        "image_overlay_opacity": 50,
         "image_height": "large",
         "image_behavior": "none",
         "desktop_content_position": "middle-left",
