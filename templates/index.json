@@ -13,7 +13,7 @@
         "t": {
           "type": "text",
           "settings": {
-            "text": "Smoker gear tested on a real pit. Gift-ready kits from $59.",
+            "text": "Smoker gear tested on a real pit. Gift kits from $59, free US shipping.",
             "text_style": "subtitle"
           }
         },
@@ -63,8 +63,8 @@
         "c2": {
           "type": "column",
           "settings": {
-            "title": "Gift-ready kits",
-            "text": "<p>One box, everything for the next cook. No guessing what he needs.</p>",
+            "title": "Gift kits that make sense",
+            "text": "<p>Four tools he'll use every cook, picked so you don't have to guess.</p>",
             "link_label": "",
             "link": ""
           }
