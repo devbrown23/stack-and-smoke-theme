@@ -3,13 +3,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
         "title": {
           "type": "title"
         },
@@ -41,16 +34,65 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "tested": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<span class=\"ss-tested\">Tested on our smoker</span>"
+          }
+        },
+        "trust": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "horizontal",
+            "icon_1": "fire",
+            "heading_1": "Tested on a real pit",
+            "icon_2": "box",
+            "heading_2": "Gift-ready",
+            "icon_3": "truck",
+            "heading_3": "Ships with tracking"
+          }
+        },
+        "tab_ship": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shipping",
+            "icon": "truck",
+            "content": "",
+            "page": "shipping-policy"
+          }
+        },
+        "tab_returns": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Returns",
+            "icon": "return",
+            "content": "",
+            "page": "return-policy"
+          }
+        },
+        "tab_faq": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Questions?",
+            "icon": "question_mark",
+            "content": "<p>Check our <a href=\"/pages/faqs\">FAQ</a> or <a href=\"/pages/contact\">contact us</a>. We answer fast.</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
-        "vendor",
+        "tested",
         "title",
         "price",
+        "trust",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
         "description",
+        "tab_ship",
+        "tab_returns",
+        "tab_faq",
         "share"
       ],
       "settings": {

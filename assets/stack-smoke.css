@@ -1,0 +1,50 @@
+/* Stack & Smoke brand polish on top of Dawn */
+:root { --ss-ember: 194, 65, 12; --ss-char: 28, 26, 23; }
+
+/* Headings: bold, condensed, a little letter-spacing */
+h1, h2, .h0, .h1, .h2, .banner__heading, .title {
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+.banner__heading { text-shadow: 0 2px 18px rgba(0, 0, 0, 0.45); line-height: 1.05; }
+.banner__text { text-shadow: 0 1px 10px rgba(0, 0, 0, 0.5); }
+
+/* Text logo when no image logo is uploaded */
+.header__heading-link .h2 {
+  font-family: var(--font-heading-family);
+  font-weight: var(--font-heading-weight);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 2.4rem;
+}
+
+/* Buttons: bold uppercase, a touch of weight */
+.button, .shopify-payment-button__button--unbranded {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 700;
+}
+.button:not(.button--secondary):hover { filter: brightness(1.08); }
+
+/* Announcement bar */
+.announcement-bar__message { letter-spacing: 0.12em; text-transform: uppercase; font-size: 1.2rem; font-weight: 600; }
+
+/* Menu */
+.header__menu-item span { letter-spacing: 0.04em; }
+.header__active-menu-item { text-decoration-color: rgb(var(--ss-ember)); text-decoration-thickness: 2px; }
+
+/* Why Stack & Smoke columns */
+.multicolumn-card__info .inline-richtext, .multicolumn-card h3 { letter-spacing: 0.02em; }
+.multicolumn-card h3 { text-transform: uppercase; }
+
+/* Product cards */
+.card__heading { font-weight: 600; }
+.card-wrapper:hover .card__inner { box-shadow: 0 8px 24px rgba(var(--ss-char), 0.18); transition: box-shadow 0.2s ease; }
+
+/* Product page trust row */
+.product .icon-with-text { margin: 1.2rem 0; padding: 1.2rem 0; border-top: 1px solid rgba(var(--color-foreground), 0.12); border-bottom: 1px solid rgba(var(--color-foreground), 0.12); }
+.product .icon-with-text .svg-wrapper, .product .accordion .svg-wrapper { color: rgb(var(--ss-ember)); }
+.ss-tested { display: inline-block; padding: 0.4rem 1rem; border-radius: 4px; background: rgba(var(--ss-ember), 0.12); color: rgb(var(--ss-ember)); font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; font-size: 1.2rem; }
+
+/* Footer */
+.footer__content-top .footer-block__heading { text-transform: uppercase; letter-spacing: 0.08em; }
