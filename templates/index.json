@@ -13,7 +13,7 @@
         "t": {
           "type": "text",
           "settings": {
-            "text": "Smoker gear tested on a real pit. Gift-ready kits from $79.",
+            "text": "Smoker gear tested on a real pit. Gift-ready kits from $59.",
             "text_style": "subtitle"
           }
         },
@@ -135,22 +135,22 @@
         "h": {
           "type": "heading",
           "settings": {
-            "heading": "Stop opening the lid.",
+            "heading": "Nail the temp. Every time.",
             "heading_size": "h1"
           }
         },
         "t": {
           "type": "text",
           "settings": {
-            "text": "<p>Check your brisket from the couch. A wireless thermometer sends the temp to your phone and alerts you when it's ready.</p>",
+            "text": "<p>No more guessing, no more dry brisket. A fast instant-read thermometer tells you exactly when it's done, in seconds. It's in every Starter Stack.</p>",
             "text_style": "body"
           }
         },
         "b": {
           "type": "button",
           "settings": {
-            "button_label": "Shop thermometers",
-            "button_link": "shopify://collections/thermometers",
+            "button_label": "Shop the Starter Stack",
+            "button_link": "shopify://collections/the-stacks-bundles",
             "button_style_secondary": false
           }
         }
