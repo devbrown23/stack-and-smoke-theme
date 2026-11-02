@@ -48,3 +48,14 @@ h1, h2, .h0, .h1, .h2, .banner__heading, .title {
 
 /* Footer */
 .footer__content-top .footer-block__heading { text-transform: uppercase; letter-spacing: 0.08em; }
+
+/* --- Product page color pass --- */
+.product__info-wrapper .price-item { color: #C2410C; font-weight: 700; font-size: 2.6rem; letter-spacing: .02em; }
+.product__info-wrapper .icon-with-text svg, .product__info-wrapper .icon-with-text img { color: #C2410C; }
+.product__info-wrapper .icon-with-text { background: #1C1A17; color: #FAF7F2; border-radius: 6px; padding: 1.6rem 1rem; }
+.product__info-wrapper .icon-with-text * { color: #FAF7F2; }
+.product__info-wrapper .icon-with-text .icon, .product__info-wrapper .icon-with-text svg { color: #E4572E !important; }
+.product-form__submit { background: #C2410C !important; color: #fff !important; border: 0; }
+.product-form__submit:hover { background: #A33608 !important; }
+.product__media-wrapper .product__media-item { border-radius: 8px; overflow: hidden; background: radial-gradient(circle at 50% 40%, #fff 55%, #F3E6D8 100%); }
+.multicolumn-card__image-wrapper img { border-radius: 8px; }
